@@ -3,7 +3,7 @@
 class lingue_signa {
 
      public $debub;
-	   public $file;
+     public $file;
      public $name;
      public $dir;
 	
@@ -32,9 +32,9 @@ class lingue_signa {
 		 }
 	  }
 	
-		if ($this->debub=="yes"){ 
+	       if ($this->debub=="yes"){ 
 				 
-	       return  $total."<br>".$frase;	
+	        return  $total."<br>".$frase;	
 		 }else{
 		  	$out['name']=$this->name;
 		  	$out['total']=$total;
@@ -57,5 +57,20 @@ class lingue_signa {
 	
 		return $out;
 }
+
+	
+	public function getIPFScontractTXT($CID,$filename){
+		
+                 // CID: bafybeigvgzoolc3drupxhlevdp2ugqcrbcsqfmcek2zxiw5wctk3xjpjwy
+	 
+		  $files="https://".$CID.".ipfs.nftstorage.link/".$filename;
+		
+		 
+  		  	if (strpos($file, '.txt')) {
+     	 	  	$out.=  file_get_contents($filse, true)."<br><br><br>";
+   			 }
+		}
+	
+		return $out;
 	
 }
