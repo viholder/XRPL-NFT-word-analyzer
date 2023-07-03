@@ -61,9 +61,8 @@ class lingue_signa {
 	
 	public function getIPFScontractTXT($CID,$filename){
 		
-                 // CID: bafybeigvgzoolc3drupxhlevdp2ugqcrbcsqfmcek2zxiw5wctk3xjpjwy
-	 
-		  $files="https://".$CID.".ipfs.nftstorage.link/".$filename;
+                  // CID: bafkreid5xcd4gt3x75m3ngugzf3oi7vepbh5wrn2es6qxovqigkrngefva
+ 		  $files="https://".$CID.".ipfs.nftstorage.link/".$filename;
 		
 		 
   		  	if (strpos($file, '.txt')) {
